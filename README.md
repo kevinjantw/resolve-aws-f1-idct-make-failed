@@ -43,8 +43,10 @@ make: *** [build_hw_emu/host.exe] Error 1
 [centos@ip-172-31-85-116 ~]$ cd /opt/Xilinx/Vivado
 [centos@ip-172-31-85-116 Vivado]$ sudo mkdir 2021.1
 [centos@ip-172-31-85-116 Vivado]$ cd 2021.1
-[centos@ip-172-31-85-116 2021.1]$ sudo tar -vxf [2021.1.include.tar](https://github.com/kevinjantw/resolve-aws-f1-idct-make-failed/blob/main/2021.1.include.tar)
+[centos@ip-172-31-85-116 2021.1]$ sudo tar -vxf 2021.1.include.tar
 ```
+[2021.1.include.tar](https://github.com/kevinjantw/resolve-aws-f1-idct-make-failed/blob/main/2021.1.include.tar)
+
 ```console
 [centos@ip-172-31-85-116 aws-fpga]$ pwd
 /home/centos/src/project_data/aws-fpga
